@@ -34,7 +34,7 @@ SimpleForm.setup do |config|
     # to the input. If so, they will retrieve the values from the model
     # if any exists. If you want to enable any of those
     # extensions by default, you can change `b.optional` to `b.use`.
-
+    
     # Calculates maxlength from length validations for string inputs
     # and/or database column lengths
     b.optional :maxlength

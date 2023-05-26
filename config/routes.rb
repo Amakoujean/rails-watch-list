@@ -3,4 +3,10 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  resources :lists
+end
+<%= simple_form_for @list do |f| %>
+  <%= f.input :name %>
+  <%= f.button :submit %>
+<% end %>
 end
